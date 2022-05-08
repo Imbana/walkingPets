@@ -1,0 +1,96 @@
+.servicePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.serviceLeft{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceDogImg{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* ------------  Top ------------ */
+
+.serviceRight{
+    flex: 4;
+}
+
+
+
+.serviceTextCard{
+    color: rgba(0, 0, 0, 0.575);
+    font-weight: 700;
+}
+.serviceContainerGrid{
+    display: grid;
+    margin: 40px 0px;
+    grid-template-columns:repeat(auto-fill, minmax(13rem,14rem));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.serviceItemGrid{
+    background-color: #9CADCE;
+    border-radius: 15px;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 3px 3px 25px 1px rgba(0,0,0,0.3);
+ 
+}
+
+.serviceIconCard{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.serviceTitleCard{
+    font-size: 1.4rem;
+    margin:10px 0px;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .serviceRightTitle{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .servicePage{
+        flex-direction: column-reverse;   
+        margin-top: 40px;
+        gap: 40px;
+    }
+    .serviceContainerGrid{
+        grid-template-columns:repeat(auto-fill, minmax(13rem,1fr));
+        gap: 1rem;
+ 
+    }
+    .serviceDogImg{
+        width:80%;
+   
+    }
+    
+
+}
+
+@media screen and (max-width: 750px){
+
+    .serviceContainerGrid{
+        grid-template-columns:repeat(auto-fill, minmax(13rem,15rem));
+        gap: 2rem;
+    }
+
+}

@@ -1,0 +1,111 @@
+.loginPage {
+   height: 100vh;
+   position: relative;
+   background: radial-gradient(
+            37.41% 137.82% at 52.54% 82.06%,
+            rgba(156, 173, 206, 0.8) 53.94%,
+            rgba(156, 173, 206, 0) 100%
+         )
+         /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      radial-gradient(
+         102.54% 120.28% at 95.16% -5.22%,
+         rgba(126, 196, 207, 0.8) 62.27%,
+         rgba(172, 224, 224, 0.384) 100%
+      );
+   margin: 0px auto;
+}
+
+.loginPageImg {
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   width: 100%;
+}
+
+.loginPageForm {
+   background-color: rgba(0, 0, 0, 0.199);
+   position: relative;
+   width: min-content;
+   left: 50%;
+   top: 40%;
+   transform: translate(-50%, -50%);
+   padding: 20px 0px;
+   border-radius: 15px;
+   box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.274);
+   text-align: center;
+}
+.loginPageTitle{
+    margin: 25px 0px;
+    font-size: 3rem;
+}
+.loginPageForm button {
+    margin: 40px 0px 20px 0px;
+    width: 80%;
+}
+
+.loginPageItem {
+   width: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0px;
+   font-size: 1.2rem;
+}
+
+.loginPageInput {
+   padding: 15px 5px;
+   border-radius: 5px;
+   border: none;
+   margin: 10px;
+   width: 70%;
+}
+
+.loginPageRegister {
+   display: block;
+   text-align: center;
+   color: rgb(3, 28, 248);
+   font-weight: 300;
+
+}
+.loginPageRegister span {
+    cursor: pointer;
+}
+
+.loginPageIcon{
+    font-size: 1.8rem;
+}
+
+.footerCloseIcon{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 3rem;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.76);
+}
+.footerCloseIcon:hover{
+    color: black;
+}
+
+@media screen and (max-width: 750px){
+
+    .loginPageImg{
+        display: none;
+    }
+    .loginPageItem{
+        width: 300px;
+    }
+    .footerCloseIcon{
+        top: 10px;
+        right: 10px;
+    }
+}
+@media screen and (max-width: 299px){
+
+    .loginPageImg{
+        display: none;
+    }
+    .loginPageItem{
+        width: 280px;
+    }
+}

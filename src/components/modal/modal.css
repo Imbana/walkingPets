@@ -1,0 +1,41 @@
+.modal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12, 11, 11, 0.719);
+    backdrop-filter: blur(2px);
+    z-index: 99999;
+}
+
+.modalWindow{
+    background-color: transparent;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
+    z-index: 99;
+    min-width: 320px;
+}
+
+.madalClose{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 9;
+    padding: 10px 15px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.modalWindowClose{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+

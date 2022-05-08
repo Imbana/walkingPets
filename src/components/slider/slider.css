@@ -1,0 +1,52 @@
+.mySwiper{
+    height: 500px;
+    width: 350px;
+  
+}
+.SliderCard{
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.SliderCard >img {
+    margin-top: 20px;
+}
+
+.sliderText{
+    margin: 30px 0px 50px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+}
+.sliderOmitir{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.SliderBottonLogin{
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 8px 28px;
+    font-size: 1rem;
+    margin-top: 10px 0px;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: black;
+}
+
+@media screen and (max-width: 300px){
+
+    .mySwiper{
+        width: 100%;
+    }
+
+}
+

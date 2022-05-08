@@ -1,0 +1,56 @@
+.registerPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 50px 0px;
+}
+
+.registerPageText{
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 40%;
+    margin: 50px;
+    text-align: center;
+}
+
+.registerCatImg{
+    position: absolute;
+    z-index: 99;
+    bottom: -145px;
+    left: 0px;
+}
+
+.registerHuellasImg{
+    position: absolute;
+    z-index: 99;
+    bottom: -145px;
+    right: -35px;
+}
+
+@media screen and (max-width: 950px){
+    .registerHuellasImg{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .registerPageText{
+        width: auto;
+    }
+    .registerButton{
+        margin-bottom: 100px;
+    }
+
+ }
+
+ @media screen and (max-width: 385px) {
+    .registerCatImg{
+        width:95%;
+        bottom: -135px;
+    }
+
+ }
+ 

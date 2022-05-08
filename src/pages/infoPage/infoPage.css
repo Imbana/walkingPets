@@ -1,0 +1,91 @@
+.infoPage{
+    margin: 50px 0px;
+}
+
+
+.infoPageContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.infoPageText{
+    width: 550px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.infoPageCard{
+    display: flex;
+    width: 600px;
+    padding: 40px;
+    background-color: #04010133;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+}
+
+.InfoPageIconQuote{
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.infoPageCardImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: left;
+    margin-right: 40px;
+}
+
+.infoPageCardText{
+    margin: 20px 0px;
+    font-size: 1.1rem;
+ 
+    
+}
+
+.infoPageCardInfo {
+    color: rgb(228, 228, 228);
+}
+
+
+.infoPageCardScore{
+    margin: 20px 0px;
+
+}
+.infoPageCardScore span{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+.InfoPageIconCards{
+    font-size: 1.7rem;
+    color: #FFC700;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .infoPageContainer{
+        flex-direction: column;
+    }
+    .infoPageText{
+        width: auto;
+    }
+
+    .infoPageCard{
+        flex-direction: column;
+        width: auto;
+        align-items: flex-start;
+    }
+    .infoPageCardImg{
+        margin-bottom: 20px;
+    }
+ }
+ 

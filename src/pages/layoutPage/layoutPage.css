@@ -1,0 +1,11 @@
+.layoutContainer{
+    max-width: 2040px;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+@media screen and (max-width: 750px){
+    .layoutContainer{
+        padding: 0px 20px;
+    }
+}
