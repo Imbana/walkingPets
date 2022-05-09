@@ -1,52 +1,69 @@
-.mySwiper{
-    height: 500px;
-    width: 350px;
-  
+.mySwiper {
+   height: 550px;
+   width: 350px;
 }
-.SliderCard{
-    text-align: center;
-    padding: 20px;
-    height: 100%;
-    border-radius: 15px;
-}
-
-.SliderCard >img {
-    margin-top: 20px;
-}
-
-.sliderText{
-    margin: 30px 0px 50px;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-
-}
-.sliderOmitir{
-    position: absolute;
-    bottom: 50px;
-    left: 20px;
-    cursor: pointer;
+.SliderCard {
+   text-align: center;
+   padding: 20px;
+   height: 100%;
+   border-radius: 15px;
+   background: radial-gradient(
+            138.83% 52.17% at 0% 19.86%,
+            #9cadce 34.14%,
+            rgba(111, 133, 174, 0) 100%
+         )
+         /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      radial-gradient(
+         233.52% 231.08% at 75.42% 53.34%,
+         #7ec4cf 38.01%,
+         rgba(126, 196, 207, 0) 51.7%
+      );
 }
 
-.SliderBottonLogin{
-    background: black;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    border: none;
-    padding: 8px 28px;
-    font-size: 1rem;
-    margin-top: 10px 0px;
+.sliderImgTop {
+   margin-top: -60px;
+   width: 300px;
+   height: 300px;
 }
 
-.swiper-pagination-bullet-active{
-    background-color: black;
+.sliderText {
+   margin: 30px 0px 50px;
+   font-size: 1.2rem;
+   line-height: 1.5rem;
+}
+.sliderOmitir {
+   position: absolute;
+   bottom: 50px;
+   left: 20px;
+   cursor: pointer;
 }
 
-@media screen and (max-width: 300px){
-
-    .mySwiper{
-        width: 100%;
-    }
-
+.SliderBottonLogin {
+   background: black;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   border: none;
+   padding: 8px 48px;
+   font-size: 1rem;
+   margin-top: 10px 0px;
 }
 
+.swiper-pagination-bullet-active {
+   background-color: black;
+}
+
+.sliderHuelaImg {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100px;
+   height: 80px;
+   object-fit: cover;
+}
+
+@media screen and (max-width: 300px) {
+   .mySwiper {
+      width: 100%;
+   }
+}

@@ -33,7 +33,8 @@ const LoginPage = () => {
                   placeholder="Contraseña"
                />
             </div>
-            <button className="buttonFirst">Iniciar sesion</button>
+            <Link to="/cards"> <button className="buttonFirst">Iniciar sesion</button></Link>
+           
             <div className="loginPageRegister">
 
             <span className="">Registrarse</span>

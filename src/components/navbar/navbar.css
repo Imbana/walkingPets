@@ -49,6 +49,17 @@
     padding: 8px 28px;
 }
 
+.linkMenu{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.linkMenu.active{
+   font-weight: 900;
+   border-bottom: 4px solid black;
+    font-size: 1.3rem;
+}
+
 
 @media screen and (max-width: 750px){
     .navbar{

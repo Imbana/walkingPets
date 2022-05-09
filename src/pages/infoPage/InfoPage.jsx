@@ -1,8 +1,8 @@
 import { faQuoteLeft, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./infoPage.css";
-import infoHuella from "../../assets/huella.png"
-import womenDog from "../../assets/women.jpg"
+import infoHuella from "../../assets/huella.png";
+import womenDog from "../../assets/women.jpg";
 const InfoPage = () => {
    return (
       <div className="infoPage">
@@ -17,16 +17,16 @@ const InfoPage = () => {
          <div className="infoPageContainer">
             <p className="infoPageText">
                Si lo deseas puede elegir el lugar, la hora e incluso la persona
-               que se encargara de tu mascota, esto gracias a que todos nuestos
+               que se encargara de tu mascota, esto gracias a que todos nuestros
                colaboradores cuentas con unas estrellas y comentarios de los
-               servicios prestados anteriormete.
+               servicios prestados anteriormente.
             </p>
             <div className="infoPageCard">
                <img className="infoPageCardImg" src={womenDog} alt="" />
                <div className="infoPageCardInfo">
                   <h2>Juliana Camila</h2>
                   <p className="infoPageCardText">
-                  <FontAwesomeIcon
+                     <FontAwesomeIcon
                         className="InfoPageIconQuote"
                         icon={faQuoteLeft}
                      />

@@ -16,7 +16,7 @@ const RegisterPage = ({setShowModal}) => {
             />
          </div>
          <p className="registerPageText">
-         Agrega a tu mascota a nuestra base y te daremos un paseo a mitad de precio, asi podras comproba nuestro compromiso en el cuidado de tu mascota.
+         Agrega a tu mascota a nuestra base y te daremos un paseo a mitad de precio, así podrás comprobar nuestro compromiso en el cuidado de tu mascota.
         </p>
 
         <button onClick={() => setShowModal(active => !active)}  className='buttonFirst registerButton '>Empieza ya !</button>

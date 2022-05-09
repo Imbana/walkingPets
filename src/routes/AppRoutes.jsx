@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from '../pages/homePage/HomePage'
 import LayoutPage from '../pages/layoutPage/LayoutPage'
 import LoginPage from "../pages/loginPage/LoginPage"
+import UserPage from "../pages/usersPage/UserPage"
 
 const AppRoutes = () => {
   return (
@@ -18,7 +19,9 @@ const AppRoutes = () => {
              <Route index element={<LeagueStandings />} />
           </Route> */}
        </Route>
+       <Route path="/cards" element={<UserPage />} />
        <Route path="/login" element={<LoginPage />}/>
+      
     </Routes>
  </BrowserRouter>
   )

@@ -9,13 +9,17 @@ import {
    faUserCheck,
 } from "@fortawesome/free-solid-svg-icons";
 
-const ServicePage = ({setShowModal}) => {
+const ServicePage = ({ setShowModal }) => {
    return (
       <section className="servicePage">
          <div className="serviceLeft">
             <img className="serviceDogImg" src={dogService} alt="dogImg" />
-            <button onClick={() => setShowModal(active => !active)}  className='buttonFirst '>Empieza ya !</button>
-  
+            <button
+               onClick={() => setShowModal((active) => !active)}
+               className="buttonFirst "
+            >
+               Empieza ya !
+            </button>
          </div>
          <div className="serviceRight">
             <div className="serviceRightTop sectionTitleTop">
@@ -49,8 +53,8 @@ const ServicePage = ({setShowModal}) => {
 
                   <h3 className="serviceTitleCard">GPS</h3>
                   <p className="serviceTextCard">
-                     Tendras a tu disposicion, por medio de la aplicacion la
-                     ubicacion exacta y el recorrido de tu mascota
+                     Tendrás a tu disposición, por medio de la aplicación la
+                     ubicación exacta y el recorrido de tu mascota
                   </p>
                </div>
                <div className="serviceItemGrid">
@@ -61,8 +65,8 @@ const ServicePage = ({setShowModal}) => {
 
                   <h3 className="serviceTitleCard">Veterinario</h3>
                   <p className="serviceTextCard">
-                     Contamos con centros de atencion inmediata en cualquier
-                     tipo de emergencia para tu mascot
+                     Contamos con centros de atención inmediata en cualquier
+                     tipo de emergencia.
                   </p>
                </div>
                <div className="serviceItemGrid">
@@ -74,7 +78,7 @@ const ServicePage = ({setShowModal}) => {
                   <h3 className="serviceTitleCard">Personal</h3>
                   <p className="serviceTextCard">
                      Todo nuestro personal es capacitado para ofrecerte una
-                     mejor atencion y servicio
+                     mejor atención y servicio.
                   </p>
                </div>
             </div>
